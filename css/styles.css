@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100vw;
+  height: 400px;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/assets/backAuthground.jpg");
+}
+.centralize {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 1000px;
+  height: 50%;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding-top: 20px;
+}
+li {
+  padding: 20px;
+  list-style: none;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: white;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #000;
+  opacity: 0.5;
+}
+.downblock {
+  display: flex;
+  width: 1000px;
+  height: 50%;
+}
+.descheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descheader {
+  height: 150px;
+  width: 300px;
+  font-family: "Josefin Sans";
+  border: 5px solid #fff;
+  font-size: 58px;
+  font-weight: 400;
+  padding: 10px;
+}
