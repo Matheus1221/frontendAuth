@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
+
 header {
   width: 100vw;
   height: 400px;
@@ -70,6 +74,19 @@ a:hover {
   font-family: "Josefin Sans";
   border: 5px solid #fff;
   font-size: 58px;
-  font-weight: 400;
+  font-weight: 300;
   padding: 10px;
+}
+
+main {
+  width: 100vw;
+  height: 800px;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  height: 700px;
 }
